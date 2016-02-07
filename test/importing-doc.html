@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Bigquery Tables Selector Test</title>
+    <link rel="import" href="../../google-signin/google-signin.html">
+    <link rel="import" href="../../bigquery-projects-selector/bigquery-projects-selector.html">
+    <link rel="import" href="../../bigquery-datasets-selector/bigquery-datasets-selector.html">
+    <link rel="import" href="../bigquery-tables-selector.html">
+  </head>
+  <body>
+    <google-signin
+      client-id=""
+      scopes="https://www.googleapis.com/auth/cloud-platform.read-only">
+    </google-signin>
+
+    <bigquery-projects-selector></bigquery-projects-selector>
+    <bigquery-datasets-selector></bigquery-datasets-selector>
+    <bigquery-tables-selector></bigquery-tables-selector>
+  </body>
+</html>

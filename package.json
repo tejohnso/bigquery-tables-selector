@@ -1,0 +1,16 @@
+{
+  "name": "bigquery-tables-selector",
+  "version": "0.1.0",
+  "description": "Shows a dropdown list of user tables",
+  "main": "bigquery-tables-selector.html",
+  "devDependencies": {
+    "webdriverio": "^3.4.0"
+  },
+  "scripts": {
+    "setup-test-env": "http-server .. -c-1 & selenium-standalone start &",
+    "test": "mocha test",
+    "teardown-test-env": "(pgrep -f selenium && pgrep -f http-server) |xargs kill 2>/dev/null"
+  },
+  "author": "Tyler Johnson <mail@tyler-johnson.ca> (http://github.com/tejohnso)",
+  "license": "ISC"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "bigquery-tables-selector",
+  "version": "0.1.0",
+  "authors": [
+    "Tyler Johnson <mail@tyler-johnson.ca>"
+  ],
+  "description": "Shows a dropdown list of user tables",
+  "main": "bigquery-tables-selector.html",
+  "keywords": [
+    "web-components"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bigquery-datasets-selector": "^0.1.0"
+  }
+}
